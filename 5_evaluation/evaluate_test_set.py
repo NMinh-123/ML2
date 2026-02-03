@@ -8,8 +8,8 @@ BASE_DIR = os.path.dirname(CURRENT_DIR)
 
 TEST_FILE = os.path.join(BASE_DIR, '1_data', 'raw', 'test_FD001.txt')
 
-MODEL_PATH = os.path.join(BASE_DIR, '5_training', 'saved_models', 'ocsvm_fd001.pkl')
-SCALER_PATH = os.path.join(BASE_DIR, '5_training', 'saved_models', 'scaler_fd001.pkl')
+MODEL_PATH = os.path.join(BASE_DIR, '3_training', 'saved_models', 'ocsvm_fd001.pkl')
+SCALER_PATH = os.path.join(BASE_DIR, '3_training', 'saved_models', 'scaler_fd001.pkl')
 
 OUTPUT_FILE = os.path.join(BASE_DIR, 'experiments', 'exp_01_baseline', 'test_results.csv')
 
