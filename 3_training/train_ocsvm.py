@@ -6,7 +6,7 @@ from sklearn.preprocessing import StandardScaler
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 INPUT_PATH = os.path.join(BASE_DIR, '1_data', 'processed', 'FD001_cleandata.csv')
-MODEL_DIR = os.path.join(BASE_DIR, '5_training', 'saved_models')
+MODEL_DIR = os.path.join(BASE_DIR, '3_training', 'saved_models')
 EXP_DIR = os.path.join(BASE_DIR, 'experiments', 'exp_01_baseline')
 
 # Đảm bảo thư mục tồn tại
